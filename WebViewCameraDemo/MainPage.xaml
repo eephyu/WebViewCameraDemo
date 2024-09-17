@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+             x:Class="WebViewCameraDemo.MainPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <WebView x:Name="browser"  Source="https://saas.cloudapp.com.sg/WebViewCameraDemo/Employee/Index" android:WebView.MixedContentMode="AlwaysAllow" android:WebView.EnableZoomControls="true"              
+                HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></WebView>
+            <!--Navigated="webviewNavigated" Navigating="webviewNavigating"-->
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
