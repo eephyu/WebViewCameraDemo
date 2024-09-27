@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+	<!-- Base application theme --><!--
+	<style name="AppTheme" parent="Theme.Maui">
+		--><!-- Customize your theme here --><!--
+	</style>-->
+
+	<!-- Custom AlertDialog Theme -->
+	<style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+		<!-- Change title color -->
+		<item name="android:textColorPrimary">#FF6200EE</item>
+		<!-- Change dialog background -->
+		<item name="android:background">#FFFFFF</item>
+		<!-- Change button colors -->
+		<item name="android:buttonBarPositiveButtonStyle">@style/CustomButtonStyle</item>
+		<item name="android:buttonBarNegativeButtonStyle">@style/CustomButtonStyle</item>
+	</style>
+	<style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+		<item name="android:textColor">@color/material_blue_grey_900</item>
+		<item name="android:background">#FFFFFF</item>
+		<!-- Purple background -->
+	</style>
+</resources>
